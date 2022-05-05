@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "flaskproject"
+version = "0.1.0"
+description = ""
+authors = ["Gal Rabin <galr@qwak.ai>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^2.1.2"
+Flask-SQLAlchemy = "^2.5.1"
+dependency-injector = {version = "^4.39.1", extras = ["yaml"]}
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+pre-commit = "^2.19.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
