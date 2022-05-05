@@ -1,5 +1,7 @@
 # IAM service
 
+[![pr-webapp](https://github.com/GalRabin/iam-service/actions/workflows/push_main.yaml/badge.svg?branch=main)](https://github.com/GalRabin/iam-service/actions/workflows/push_main.yaml)
+
 ## Description
 This is a simple service which manage user and group relations.
 

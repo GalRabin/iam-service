@@ -10,5 +10,6 @@ def add_user_command(
     fullname: str,
     email: str,
     user_repository: UserRepository = Provide[Container.user_repository],
+    **kwargs
 ):
     pass
