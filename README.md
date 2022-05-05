@@ -5,8 +5,9 @@
 ## Description
 This is a simple service which manage user and group relations.
 
-## Docker hub
-There is always updated docker image in docker hub: `galrabin/iam-service:latest`
+To run this service simply run: `docker run galrabin/iam-service:latest`
+
+> The docker is always updated with main branch, Using CI.
 
 ## Contribution
 1. Install package - `poetry install`
